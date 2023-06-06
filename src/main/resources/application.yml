@@ -1,1 +1,13 @@
-
+server:
+  port: 8080
+mybatis-plus:
+  type-aliases-package: com.email.entity
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username:
+    password:
+#  redis:
+#    port: 6379
+#    host: localhost
+#    password: 123321
