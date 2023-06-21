@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+mybatis-plus:
+  type-aliases-package: com.email.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: chenjiale
+    url: jdbc:mysql://localhost:3306/maildata
+
+
+#  redis:
+#    port: 6379
+#    host: localhost
+#    password: 123321
